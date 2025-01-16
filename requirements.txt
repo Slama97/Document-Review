@@ -580,7 +580,6 @@ spyder-kernels==2.5.2
 SQLAlchemy==2.0.30
 sqlite-fts4==1.0.3
 sqlite-utils==3.37
-sqlite_bro==0.13.1
 sqlparse==0.4.3
 srsly==2.5.0
 sspyrs==0.3
