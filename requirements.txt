@@ -494,7 +494,6 @@ pytorch-lightning==2.3.3
 pytz==2024.1
 pytz-deprecation-shim==0.1.0.post0
 pyviz_comms==3.0.3
-pywin32==306
 pywin32-ctypes==0.2.2
 pywinpty==2.0.12
 pywinusb==0.4.2
