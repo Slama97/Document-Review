@@ -383,11 +383,11 @@ with st.sidebar:
             G_response = send_prompt_to_assistant(G_prompt, display=False)
 
             if "n.i.O" in response:
-                st.session_state.criteria_status[index] = "red"
+                st.session_state.criteria_status[0] = "red"
             elif "i.O" in response:
-                st.session_state.criteria_status[index] = "green"
+                st.session_state.criteria_status[0] = "green"
             else:
-                st.session_state.criteria_status[index] = "lightgray"  # Default when no valid response
+                st.session_state.criteria_status[0] = "lightgray"  # Default when no valid response
             
 
             # Step 3: Send prompt for Unterlagenklasse
@@ -395,11 +395,11 @@ with st.sidebar:
             U_response = send_prompt_to_assistant(U_prompt, display=False)
 
             if "n.i.O" in response:
-                st.session_state.criteria_status[index] = "red"
+                st.session_state.criteria_status[1] = "red"
             elif "i.O" in response:
-                st.session_state.criteria_status[index] = "green"
+                st.session_state.criteria_status[1] = "green"
             else:
-                st.session_state.criteria_status[index] = "lightgray"  # Default when no valid response
+                st.session_state.criteria_status[1] = "lightgray"  # Default when no valid response
             
 
             # Step 4: Send prompt for Dateiformat
@@ -407,11 +407,11 @@ with st.sidebar:
             D_response = send_prompt_to_assistant(D_prompt, display=False)
 
             if "n.i.O" in response:
-                st.session_state.criteria_status[index] = "red"
+                st.session_state.criteria_status[2] = "red"
             elif "i.O" in response:
-                st.session_state.criteria_status[index] = "green"
+                st.session_state.criteria_status[2] = "green"
             else:
-                st.session_state.criteria_status[index] = "lightgray"  # Default when no valid response
+                st.session_state.criteria_status[2] = "lightgray"  # Default when no valid response
             
             last_prompt = """Falls KM ID  nicht bekannt, nur nochmal fragen nach KM ID fragen. 
             Ansonsten nur eine Zusammenfassungstabelle gemäß **Antwort_Template**
