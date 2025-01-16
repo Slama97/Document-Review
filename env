@@ -1,0 +1,4 @@
+AZURE_OPENAI_ENDPOINT = https://openaideployment-eu-d-001.openai.azure.com/
+AZURE_OPENAI_API_KEY = e4dca23200e04772b462a6bac76168aa
+API_VERSION = 2024-05-01-preview
+HTTP_PROXY = http://audi%5Cvi0uh9g:%24Technik1997@proxy.in.audi.vwg:8080
