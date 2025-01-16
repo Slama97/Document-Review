@@ -400,7 +400,6 @@ polars==1.6.0
 pooch==1.8.2
 portalocker==2.7.0
 portpicker==1.6.0
-ppci==0.5.9
 pre_commit==4.0.1
 preshed==3.0.9
 prettytable==3.3.0
