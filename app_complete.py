@@ -52,11 +52,11 @@ def display_messages(messages):
 
 
 # Load environment variables from .env file
-load_dotenv(dotenv_path='.env')
+#load_dotenv(dotenv_path='.env')
 
 # Set up proxy environment variables to access external websites
-os.environ['http_proxy'] = os.getenv('HTTP_PROXY')
-os.environ['https_proxy'] = os.getenv('HTTP_PROXY')
+#os.environ['http_proxy'] = os.getenv('HTTP_PROXY')
+#os.environ['https_proxy'] = os.getenv('HTTP_PROXY')
 
 # Initialize the AzureOpenAI client
 client = AzureOpenAI(
