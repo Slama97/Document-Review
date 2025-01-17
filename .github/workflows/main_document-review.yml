@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: 'Document-Review'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B1CD73A6FFD74FBC956374D06F2D86A8 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DE9D37DE33944FE58FE30DAD0872E7D9 }}
